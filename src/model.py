@@ -7,7 +7,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from datetime import datetime
 import os
 
-df = pd.read_csv("../data/processed/finnish_housing_clean.csv")
+df = pd.read_csv("../data/processed/finnish_land_clean.csv")
 
 features_with_index = ["reaalihintaindeksi", "keskipinta_ala", "kauppojen_lkm", "year", "q_num"]
 features_without_index = ["keskipinta_ala", "kauppojen_lkm", "year", "q_num"]

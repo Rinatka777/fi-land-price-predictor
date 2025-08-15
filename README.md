@@ -1,6 +1,6 @@
-# Housing Price Predictor
+# Land Price Predictor (Omakotitalotontit, Finland)
 
-A machine learning project to predict housing prices
+Predicts plot €/m² using StatFin quarterly data (2015–2025).
 
 ## Project Structure
 

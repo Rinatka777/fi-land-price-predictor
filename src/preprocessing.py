@@ -38,5 +38,5 @@ df_clean["year"] = df_clean["quarter"].str[:4].astype(int)
 df_clean["q_num"] = df_clean["quarter"].str[-1].astype(int)
 df_clean = df_clean.sort_values(by=["year", "q_num"])
 
-df_clean.to_csv("../data/processed/finnish_housing_clean.csv", index=False)
+df_clean.to_csv("../data/processed/finnish_land_clean.csv", index=False)
 
